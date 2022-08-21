@@ -1,0 +1,82 @@
+body {
+  display: block;
+  margin: 50px;
+  border: 4px solid grey;
+}
+.search {
+  color: grey;
+  font-size: 24px;
+  font-family: Helvetica, Arial, Helvetica, sans-serif;
+  margin-left: 35px;
+  padding-left: 80px;
+}
+.emoji {
+  background: white;
+  border: none;
+  font-size: 24px;
+}
+.tt {
+  color: grey;
+  font-family: Helvetica, Arial, Helvetica, sans-serif;
+  font-size: 24px
+}
+.units {
+  color: grey;
+  font-family: Helvetica, Arial, Helvetica, sans-serif;
+  font-size: 24px
+}
+.but {
+  background-color: rgb(0, 255, 149);
+  border: none;
+  color: grey;
+  font-family: Helvetica, Arial, Helvetica, sans-serif;
+  font-size: 24px;
+}
+.emo {
+  margin: 0;
+  font-size: 90px;
+  flex: 35%;
+}
+.city {
+  flex: 65%;
+  color: grey;
+  font-family: Helvetica, Arial, Helvetica, sans-serif;
+  margin-bottom: 0;
+  font-size: 32px;
+  border: 30px solid white;
+}
+.cc {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  margin-left: 42px;
+}
+.col {
+  color: grey;
+  background-color: rgb(0, 255, 149);
+  border: 4px solid white;
+}
+ul {
+  margin: 0 0 10px;
+  padding: 0;
+}
+li {
+  color: grey;
+  font-size: 20px;
+  list-style: none;
+  font-weight: 100;
+}
+.wiil {
+  font-size: 18px;
+  color: grey;
+  font-family: Helvetica, Arial, Helvetica, sans-serif;
+  margin: 0;
+  flex: 35%;
+}
+.cels {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  margin-left: 42px;
+  font-size: 26px;
+}
