@@ -80,3 +80,7 @@ li {
   margin-left: 42px;
   font-size: 26px;
 }
+.code {
+  color: grey;
+  font-family: Helvetica, Arial, Helvetica, sans-serif;
+}
