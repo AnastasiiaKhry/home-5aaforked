@@ -1,27 +1,32 @@
-body {
-  display: block;
-  width: 70%;
-  margin: 0 auto; 
+.cont {
+  margin: 30px auto; 
   max-width: 600px;
+  border: 10px solid #72afd3;
+  border-radius: 25px;
+  padding: 15px 60px;
 }
 .search {
   color: grey;
   font-size: 24px;
   font-family: Helvetica, Arial, Helvetica, sans-serif;
   margin-left: 35px;
-  padding-left: 80px;
+  padding-left: 40px;
   border-radius: 25px;
   border: 2px solid grey;
 }
 .emoji {
-  background: white;
-  border: none;
+  background: #72afd3;
+  border: 1px solid white;
   font-size: 24px;
+  border-radius: 17px;
+  color: grey;
+  font-family: Helvetica, Arial, Helvetica, sans-serif;
 }
 .tt {
   color: grey;
   font-family: Helvetica, Arial, Helvetica, sans-serif;
   font-size: 34px;
+  line-height: 38px;
 }
 .units {
   color: grey;
@@ -37,22 +42,32 @@ body {
 }
 .emo {
   margin: 0;
-  font-size: 90px;
   flex: 35%;
 }
 .city {
-  flex: 65%;
+  flex: 61%;
   color: grey;
   font-family: Helvetica, Arial, Helvetica, sans-serif;
   margin-bottom: 0;
   font-size: 32px;
   border: 30px solid white;
+  line-height: 38px;
+  font-weight: 100;
 }
 .cc {
   display: flex;
   flex-wrap: wrap;
   margin: 0;
-  margin-left: 42px;
+  margin-left: 15px;
+}
+.cels {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  line-height: 38px;
+  margin-left: 0;
+  margin-top: 0;
+  
 }
 .col {
   color: grey;
@@ -69,27 +84,20 @@ li {
   font-size: 20px;
   list-style: none;
   font-weight: 100;
+  line-height: 24px;
 }
 .wiil {
   font-size: 18px;
   color: grey;
   font-family: Helvetica, Arial, Helvetica, sans-serif;
   margin: 0;
-  flex: 35%;
+  flex: 39%;
+  padding: 0;
 }
-.cels {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0;
-  margin-left: 42px;
-  font-size: 26px;
-}
+
 .code {
+  margin: 0 auto;
+  max-width: 600px;
   color: grey;
   font-family: Helvetica, Arial, Helvetica, sans-serif;
-}
-.cont {
-  border: 10px solid #72afd3;
-  border-radius: 25px;
-  padding: 15px 60px;
 }
