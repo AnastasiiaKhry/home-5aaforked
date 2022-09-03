@@ -5,6 +5,7 @@
   border-radius: 25px;
   padding: 15px 60px;
 }
+
 .search {
   color: grey;
   font-size: 24px;
@@ -12,27 +13,45 @@
   margin-left: 35px;
   padding-left: 40px;
   border-radius: 25px;
-  border: 2px solid grey;
+  height: calc(1.5em + 0.75rem + 2px);
+  border: 3px solid #b0cddd;
+  background-color: rgb(207, 211, 221);
+  background-clip: padding-box;
+  
 }
+
+.search:hover {
+  border: 3px solid #adc1d4;
+  transition: border-color .20s ease-in-out, box-shadow .20s ease-in-out;
+}
+ 
 .emoji {
   background: #72afd3;
   border: 1px solid white;
-  font-size: 24px;
-  border-radius: 17px;
+  font-size: 26px;
+  border-radius: 16px;
   color: grey;
   font-family: Helvetica, Arial, Helvetica, sans-serif;
 }
+.emoji:hover {
+  box-shadow: 0 1px 20px rgba(86, 160, 192, 0.5);
+  transition: opacity 150ms ease;
+  border: 2px solid #adc1d4;
+}
+
 .tt {
   color: grey;
   font-family: Helvetica, Arial, Helvetica, sans-serif;
   font-size: 34px;
   line-height: 38px;
 }
+
 .units {
   color: grey;
   font-family: Helvetica, Arial, Helvetica, sans-serif;
   font-size: 34px;
 }
+
 .but {
   background-color: rgb(0, 255, 149);
   border: none;
@@ -40,10 +59,12 @@
   font-family: Helvetica, Arial, Helvetica, sans-serif;
   font-size: 24px;
 }
+
 .emo {
   margin: 0;
   flex: 35%;
 }
+
 .city {
   flex: 61%;
   color: grey;
@@ -54,12 +75,18 @@
   line-height: 38px;
   font-weight: 100;
 }
+
 .cc {
   display: flex;
   flex-wrap: wrap;
   margin: 0;
   margin-left: 15px;
 }
+
+.cel::first-letter {
+  text-transform: uppercase;
+}
+
 .cels {
   display: flex;
   flex-wrap: wrap;
@@ -69,16 +96,12 @@
   margin-top: 0;
   
 }
-.col {
-  color: grey;
-  background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
-  border-radius: 17px;
-  border: 1px solid white;
-}
+
 ul {
   margin: 0 0 10px;
   padding: 0;
 }
+
 li {
   color: grey;
   font-size: 20px;
@@ -86,6 +109,7 @@ li {
   font-weight: 100;
   line-height: 24px;
 }
+
 .wiil {
   font-size: 18px;
   color: grey;
@@ -100,4 +124,30 @@ li {
   max-width: 600px;
   color: grey;
   font-family: Helvetica, Arial, Helvetica, sans-serif;
+}
+
+.col {
+  color: grey;
+  background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+  border-radius: 17px;
+  border: 1px solid white;
+  text-align: center;
+}
+
+.weather-forecast {
+  margin-top: 25px;
+  color: grey;
+}
+
+.weather-forecast-date {
+  font-size: 17px;
+  opacity: 0.7;
+}
+
+.weather-forecast-tt {
+  font-size: 15px;
+}
+
+.weather-forecast-tt-min {
+  opacity: 0.7;
 }
